@@ -1,0 +1,133 @@
+.pic{
+	background-image: url("pic web/f1.jpg");
+}
+.pic2{
+	background-image: url("pic web/f2.jpg");
+}
+.pic3{
+	background-image: url("pic web/5.jpg");
+}
+.pic4{
+	background-image: url("pic web/6.jpg");
+}
+.pic5{
+	background-image: url("pic web/7.jpg");
+}
+.pic6{
+	background-image: url("pic web/8.jpg");
+}
+.pic7{
+	background-image: url("pic web/35.jpg");
+}
+.pic8{
+	background-image: url("pic web/9.jpg");
+}
+.pic9{
+	background-image: url("pic web/10.jpg");
+}
+.pic10{
+	background-image: url("pic web/11.jpg");
+}
+.pic11{
+	background-image: url("pic web/12.jpg");
+}
+.pic12{
+	background-image: url("pic web/36.jpg");
+}
+.pic13{
+	background-image: url("pic web/37.jpg");
+}
+.pic14{
+	background-image: url("pic web/15.png");
+}
+.pic15{
+	background-image: url("pic web/16.jpg");
+}
+.pic16{
+	background-image: url("pic web/17.jpg");
+}
+.pic17{
+	background-image: url("pic web/18.png");
+}
+.pic18{
+	background-image: url("pic web/19.jpg");
+}
+.pic19{
+	background-image: url("pic web/20.jpg");
+}
+.pic20{
+	background-image: url("pic web/21.jpeg");
+}
+.pic21{
+	background-image: url("pic web/38.jpg");
+}
+.pic22{
+	background-image: url("pic web/22.jpg");
+}
+.pic23{
+	background-image: url("pic web/23.jpg");
+}
+.pic24{
+	background-image: url("pic web/39.jpg");
+}
+.pic25{
+	background-image: url("pic web/40.jpg");
+}
+.back{
+	background-position: center;
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	background-attachment: fixed;
+	height: 400px;
+}
+.sub-heading{
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	font-weight: 2px;
+	color: rgba(0,0,0,0.5);
+}
+.text{
+	font-family: 'Kanit', sans-serif;
+	margin-right: 15em;
+	margin-left: 15em;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+.start{
+	font-size: 66px;
+	line-height: .7;
+	float: left;
+	margin-bottom: -.08em;
+	color: #008E0A;
+}
+
+.head{
+	margin: 0;
+	text-align: center;
+	font-size: 66px;
+}
+.divh{
+	background-color: white;
+	margin-top: 0;
+	opacity: 0.9;
+}
+body{
+	margin: 0;
+}
+p{
+	font-size: 21px;
+}
+h1{
+	margin-bottom: 0;
+}
+img{
+	border-radius: 8px;
+	max-height: 100%;
+	max-width: 100%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
