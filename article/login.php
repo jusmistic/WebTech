@@ -6,23 +6,9 @@
     <title></title>
 </head>
     <body style="background-color: #BFBCBC">
-        <div class="divh">
-            <div id="menuToggle">
-                <input type="checkbox"/>
-                <span></span>
-                <span></span>
-                <span></span>
-                <ul id="menu">
-                    <a href="login.php">
-                        <li>Login</li>
-                    </a>
-                    <a href="#">
-                        <li>Register</li>
-                    </a>
-                </ul>
-            </div>
-            <p class="head"><a href="#">SS</a></p>
-        </div>
+        <?php
+        include('navbar.php');
+        ?>
         <div class="login">
             <form method="POST">
                 <div class="imgcontainer">
