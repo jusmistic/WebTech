@@ -24,7 +24,7 @@
                     <button type="submit">Login</button>
 
                     <?php
-                    session_start();
+
                     include('backend/user.php');
                     if ($_SERVER['REQUEST_METHOD'] == "POST") {
                         $user = new User();
