@@ -24,9 +24,12 @@ if($_SERVER['REQUEST_METHOD'] == "GET"){
     );
 
     if(isset($_GET["page"]) && !empty($_GET["page"])){
-        $page = $_GET['page'];
+        $page = 'page'.$_GET['page'];
         if(in_array($page, $pages)){
             include($page. '.html');
+
+        } else {
+            http_response_code(404);
 
         }
     }
