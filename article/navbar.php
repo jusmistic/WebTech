@@ -12,7 +12,7 @@ if (session_status() == PHP_SESSION_NONE) {
         <span></span>
         <ul id="menu">
             <?php
-            if(isset($_SESSION['login'])){
+            if(!isset($_SESSION['login'])){
 
                     echo '
                     <a href="login.php">
