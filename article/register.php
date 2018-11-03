@@ -10,24 +10,38 @@
     include('navbar.php');
 ?>
 <div class="login">
-    <form action="">
+    <form method="POST">
         <div class="imgcontainer">
             <img src="pic web/login.png" alt="Avatar" class="avatar">
         </div>
         <div class="container">
-            <label for="uname"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="uname" required>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
 
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
+            <label for="username"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="username" required>
 
             <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
+            <input type="password" placeholder="Enter Password" name="password" required>
 
             <label for="psw"><b>Confirm Password</b></label>
-            <input type="password" placeholder="Re-Enter Password" name="psw" required>
+            <input type="password" placeholder="Re-Enter Password" name="password2" required>
 
             <button type="submit">Register</button>
+            <?php
+            include('backend/user.php');
+            if($_SERVER['REQUEST_METHOD'] == 'POST'){
+                $user = new User();
+                extract($_POST);
+                $res = $user->register($username, $password, $email);
+                if($res){
+                    echo "Register Success You can login now";
+                } else{
+                    echo "Register error Try again later";
+                }
+            }
+
+            ?>
         </div>
     </form>
 </div>
