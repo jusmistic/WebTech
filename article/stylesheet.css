@@ -295,13 +295,6 @@ button {
   margin-right: auto;
 
 }
-/*.prodiv{
-  text-align: right;
-  display: inline-block;
-  margin-left: 3em;
-  margin-bottom: 0.8em;
-  vertical-align: middle;
-}*/
 table{
   width: 100%;
   text-align: left;
@@ -323,15 +316,15 @@ table{
 }
 .quiz{
   background-color: white;
-  margin-left: 7em;
-    margin-right: 7em;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    padding-bottom:1em;
-    padding-top:1em;
-    border-radius:50px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+  margin-left: 13em;
+  margin-right: 13em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-bottom:1em;
+  padding-top:1em;
+  border-radius:50px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .quizhead{
   text-align: center;
@@ -349,25 +342,15 @@ table{
 .quizform{
   display: inline-block;
 }
-.quizdiv1{
+.quizdiv{
   display: inline-block;
-  margin-left: 1.5em;
-  margin-right: auto;
-}
-.quizdiv2{
-  display: inline-block;
-  margin-left: 3.5em;
+  margin-left: 2em;
   margin-right: auto;
 }
 .butquiz {
-  text-align: center;
-    background-color: #4CAF50;
-    color: white;
-    /*padding: 14px 20px;*/
-    margin-left: 260px;
-    margin-right: auto;
-    margin-top: 2em;
-    border: none;
-    /*cursor: pointer;*/
-    width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 2em;
+  border: none;
+  width: 50%;
 }
