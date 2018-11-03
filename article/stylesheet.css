@@ -44,7 +44,7 @@
 	font-size: 15px;
 	margin: 0;
 	padding: 0;
-	/*font-weight: 2px;*/
+	font-weight: 2px;
 	color: rgba(0,0,0,0.5);
 }
 .text{
@@ -67,9 +67,7 @@
 	text-align: center;
 	font-size: 66px;
 	margin-top: -25px;
-
 }
-
 .divh{
 	background-color: white;
 	margin-top: 0;
@@ -270,7 +268,7 @@ button {
     margin-top: 2em;
     padding-bottom:5em;
     padding-top:1em;
-    border-radius:10%;
+    border-radius:50px;
 }
 .profile{
     margin: 12px 10px 17px 10px;
@@ -321,7 +319,7 @@ table{
     margin-top: 2em;
     padding-bottom:5em;
     padding-top:1em;
-    border-radius:10%;
+    border-radius:50px;
 }
 .quiz{
   background-color: white;
@@ -331,13 +329,13 @@ table{
     margin-bottom: 2em;
     padding-bottom:1em;
     padding-top:1em;
-    border-radius:10%;
+    border-radius:50px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
 .quizhead{
   text-align: center;
-  /*font-weight: 5px;*/
+  font-weight: 5px;
   font-size: 40px;
   margin-top: 7px;
   margin-bottom: 7px
@@ -372,4 +370,4 @@ table{
     border: none;
     /*cursor: pointer;*/
     width: 50%;
-    border-radius:10%;}
+}
