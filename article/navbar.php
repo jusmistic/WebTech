@@ -37,7 +37,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
         </ul>
     </div>
-    <div class="head"><a class="logo" href="/article.php">SS</a></div>
+    <div class="head"><a class="logo" href="/">SS</a></div>
 </div>
 
 
