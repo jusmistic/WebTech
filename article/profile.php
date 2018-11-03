@@ -8,7 +8,7 @@
 </head>
     <body style="background-color: #BFBCBC">
 <!--        --><?php
-//        include('navbar.php');
+        include('navbar.php');
 //        ?>
         <div>
             
@@ -22,7 +22,6 @@
                 </div>
                 <div class="containerpro">
                     <?php
-                    session_start();
                     include("backend/user.php");
                     if($_SERVER["REQUEST_METHOD"] == "GET" && isset($_SESSION["username"])){
                         $username = $_GET["username"];

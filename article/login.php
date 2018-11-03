@@ -32,7 +32,7 @@
                         $login = $user->check_login($username, $password);
                         if ($login) {
                             echo "logged in <br>";
-                            header('Location: /');
+                            header('Location: /article.php');
                         } else {
                             echo "Login failed!<br>";
                         }
