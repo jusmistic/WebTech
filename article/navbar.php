@@ -25,7 +25,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 else if($_SESSION['login']){
                     $username = $_SESSION['username'];
                     echo '
-                    <a href="backend/profile.php?username='.$username.'">
+                    <a href="profile.php?username='.$username.'">
                         <li>'.$username.'</li>
                     </a>
                     <a href="backend/logout.php">
