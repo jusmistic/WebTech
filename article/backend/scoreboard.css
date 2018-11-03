@@ -1,12 +1,27 @@
-body{
 
+body{
+    background-color:hsl(185, 44%, 65%);
 }
 
 .center{
+    padding: 0px;
+    border: 1px solid hsl(185,44%,40%);
+   border-radius: 10px;
+   box-shadow: 3px 3px 0 rgba(0,0,0,0.1);
+   max-width: calc(100% - 2em);
+   margin: 1em auto;
+   overflow: hidden;
+   width: 100%;
+}
+.score-header{
+    background-color: hsl(185,44%,30%);
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
     margin: auto;
-    width: 50%;
-    border: 1px solid black;
-    padding: 10px;
 }
 .score-table{
     border-collapse: collapse;
@@ -15,8 +30,17 @@ body{
     text-align: center;
 }
 th, td{
-    border-bottom: 1px solid #ddd;
-}
+    padding:20px;
+
+}  
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color:  white;
 }
+tr:nth-child(odd) {
+    background-color:  hsl(185,44%,85%);
+}
+th{
+    padding: 10px;
+    background-color: hsl(185,44%,85%);
+}
+

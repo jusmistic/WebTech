@@ -11,13 +11,41 @@
 <body>
     <div class="center">
         <h1 class="score-header">Scoreboard</h1>
-        <table class="score-table">
+        <table  class="score-table">
             <tr>
                 <th>Rank</th>
                 <th>Username</th>
                 <th>Score</th>
                 <th>Submission ID</th>
                 <th>Submit Time</th>
+            </tr>
+            <tr>
+                <td>Rank</td>
+                <td>Username</td>
+                <td>Score</td>
+                <td>Submission ID</td>
+                <td>Submit Time</td>
+            </tr>
+            <tr>
+                <td>Rank</td>
+                <td>Username</td>
+                <td>Score</td>
+                <td>Submission ID</td>
+                <td>Submit Time</td>
+            </tr>
+            <tr>
+                <td>Rank</td>
+                <td>Username</td>
+                <td>Score</td>
+                <td>Submission ID</td>
+                <td>Submit Time</td>
+            </tr>
+            <tr>
+                <td>Rank</td>
+                <td>Username</td>
+                <td>Score</td>
+                <td>Submission ID</td>
+                <td>Submit Time</td>
             </tr>
 
         <?php
@@ -36,7 +64,7 @@
                 echo "</tr>";
                 $index++;
             }
-        ?>
+        ?> 
         </table>
     </div>
 </body>
