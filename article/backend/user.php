@@ -4,7 +4,7 @@
 
         public function __construct()
         {
-            include('conn.php');
+            include_once('conn.php');
             $dbc = new mysqli($db_host,$db_user,$db_pass,$db_name);
             if($dbc->connect_errno){
                 echo "Could not connect to database";
