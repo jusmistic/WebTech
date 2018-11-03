@@ -29,7 +29,7 @@
 
             <button type="submit">Register</button>
             <?php
-            include_once('backend/user.php');
+            include('backend/user.php');
             if($_SERVER['REQUEST_METHOD'] == 'POST'){
                 $user = new User();
                 extract($_POST);
