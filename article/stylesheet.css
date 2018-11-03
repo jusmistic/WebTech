@@ -335,7 +335,7 @@ table{
 }
 .quizhead{
   text-align: center;
-  font-weight: 5px;
+  /*font-weight: 5px;*/
   font-size: 40px;
   margin-top: 7px;
   margin-bottom: 7px
@@ -371,3 +371,4 @@ table{
     /*cursor: pointer;*/
     width: 50%;
 }
+
