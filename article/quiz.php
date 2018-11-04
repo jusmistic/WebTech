@@ -1,3 +1,4 @@
+<?php ob_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -188,8 +189,6 @@
             </form>
             <?php
 
-
-
             include('backend/class.exercise.php');
             $exercise = new Exercise();
             if($_SERVER['REQUEST_METHOD'] == "POST" && $_SESSION['login']){
@@ -197,21 +196,20 @@
                 for($i = 1; $i<=20; $i++){
                     $ans = $ans.$_POST['ex'.$i];
                 }
+                $exercise_set = 'set1';
                 $score = $exercise->check_score($ans, $exercise_set);
                 if(!$score){
                     echo "ไม่สามารถติดต่อกับฐานข้อมูลได้ ลองใหม่อีกครั้ง";
                 } else{
-                    echo "Your Score :".$score . "<br>";
+//                    echo "Your Score :".$score . "<br>";
                     $res = $exercise->submit_score($score, $_SESSION['id'], $_SESSION["username"]);
                     if(!$res){
                         echo "ไม่สามารถส่งคะแนนได้";
                     } else{
-                        echo "ส่งคะแนนเสร็จสิ้น";
-                        header("Location: /result?score=".$score);
+                        header("Location: result.php?score=".$score);
                     }
                 }
-
-            }
+            }ob_end_flush();
             ?>
         </div>
     </body>

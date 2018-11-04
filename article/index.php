@@ -51,7 +51,7 @@ include('navbar.php');
         </div>
         <div class="exercise-group">
             <a class="exercise" href="?refer=exercise">ทำแบบทดสอบ</a>
-            <a class="score" href="#"> ตารางคะแนน</a>
+            <a class="score" href="/scoreboard.php"> ตารางคะแนน</a>
         </div>
         <?php
         if($_SERVER['REQUEST_METHOD'] == "GET" && isset($_GET["refer"])){

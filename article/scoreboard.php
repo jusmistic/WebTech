@@ -6,9 +6,15 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="scoreboard.css">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
     <title>Document</title>
 </head>
 <body>
+<?php
+    include('navbar.php');
+?>
     <div class="center">
         <h1 class="score-header">Scoreboard</h1>
         <table  class="score-table">
@@ -19,37 +25,8 @@
                 <th>Submission ID</th>
                 <th>Submit Time</th>
             </tr>
-            <tr>
-                <td>Rank</td>
-                <td>Username</td>
-                <td>Score</td>
-                <td>Submission ID</td>
-                <td>Submit Time</td>
-            </tr>
-            <tr>
-                <td>Rank</td>
-                <td>Username</td>
-                <td>Score</td>
-                <td>Submission ID</td>
-                <td>Submit Time</td>
-            </tr>
-            <tr>
-                <td>Rank</td>
-                <td>Username</td>
-                <td>Score</td>
-                <td>Submission ID</td>
-                <td>Submit Time</td>
-            </tr>
-            <tr>
-                <td>Rank</td>
-                <td>Username</td>
-                <td>Score</td>
-                <td>Submission ID</td>
-                <td>Submit Time</td>
-            </tr>
-
         <?php
-            include('class.exercise.php');
+            include('backend/class.exercise.php');
 
             $scoreboard = new Exercise();
             $res = $scoreboard->get_score();
