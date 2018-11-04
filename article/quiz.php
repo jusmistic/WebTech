@@ -199,14 +199,15 @@
                 }
                 $score = $exercise->check_score($ans, $exercise_set);
                 if(!$score){
-                    echo "You answer error , Try again!";
+                    echo "ไม่สามารถติดต่อกับฐานข้อมูลได้ ลองใหม่อีกครั้ง";
                 } else{
                     echo "Your Score :".$score . "<br>";
                     $res = $exercise->submit_score($score, $_SESSION['id'], $_SESSION["username"]);
                     if(!$res){
-                        echo "Score submit error!, Try again later";
+                        echo "ไม่สามารถส่งคะแนนได้";
                     } else{
-                        echo "Submitted your score.";
+                        echo "ส่งคะแนนเสร็จสิ้น";
+                        header("Location: /result?score=".$score);
                     }
                 }
 
