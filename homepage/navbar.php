@@ -11,6 +11,7 @@ if (session_status() == PHP_SESSION_NONE) {
         <span></span>
         <span></span>
         <ul id="menu">
+
             <?php
             if(!isset($_SESSION['login'])){
 

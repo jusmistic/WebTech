@@ -79,6 +79,7 @@ header{
     height: 60vh;
 }
 .index-header{
+    background-size: cover;
     background:
             linear-gradient(
                     rgba(0, 0, 0, 0.5),

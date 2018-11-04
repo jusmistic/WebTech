@@ -56,7 +56,7 @@ include('navbar.php');
         <?php
         if($_SERVER['REQUEST_METHOD'] == "GET" && isset($_GET["refer"])){
             if(isset($_SESSION['login'])){
-                header("Location: /quiz.html");
+                header("Location: /quiz.php");
             }else{
                 echo "<h3 style='text-align: center'>เข้าสู่ระบบก่อนทำแบบทดสอบ</h3>";
             }
